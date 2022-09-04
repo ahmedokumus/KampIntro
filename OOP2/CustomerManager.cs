@@ -9,7 +9,7 @@ namespace OOP2
     {
         public void Add(Musteri musteri)
         {
-            //if (musteri.Adi == null)
+            //if (musteri.MusteriNo == null)
             //{
 
             //}

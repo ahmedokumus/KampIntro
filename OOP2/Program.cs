@@ -6,7 +6,7 @@ namespace OOP2
     {
         static void Main(string[] args)
         {
-            //Ahmed Hakan
+            //Ahmed Hakan //Müşteri1
             GercekMusteri musteri1 = new GercekMusteri();
             musteri1.Id = 1;
             musteri1.MusteriNo = "123456";
@@ -14,22 +14,26 @@ namespace OOP2
             musteri1.Soyadi = "Okumuş";
             musteri1.TcNo = "12345678910";
 
-            //ENFE Machine
-            TuzelMusteri musteri2 = new TuzelMusteri();
-            musteri2.Id = 2;
-            musteri2.MusteriNo = "987654";
-            musteri2.SirketAdi = "ENFE Machine";
-            musteri2.VergiNo = "12345678910";
+            //ENFE Machine //Müşteri2
+            TuzelMusteri musteri2 = new TuzelMusteri
+            {
+                Id = 2, 
+                MusteriNo = "987654", 
+                SirketAdi = "ENFE Machine", 
+                VergiNo = "12345678910" 
+            };
 
             //Gerçek Müşteri - Tüzel Müşteri
             //SOLID
 
             Musteri musteri3 = new GercekMusteri(); //new bellekteki bir referans no'su
-            Musteri musteri4 = new TuzelMusteri(); //Musteri hem gercek musterinin hem de tuzel musterinin referansını tutabiliyor
+            Musteri musteri4 = new TuzelMusteri(); //Musteri class ı hem gercek musterinin hem de tuzel musterinin referansını tutabiliyor
 
             CustomerManager customerManager = new CustomerManager();
             customerManager.Add(musteri1);
             customerManager.Add(musteri2);
+
+
         }
     }
 }

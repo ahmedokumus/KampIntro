@@ -5,8 +5,8 @@ using System.Text;
 namespace OOP2
 {
     //Individual
-    //GercekMusteri:Musteri => inheritance
-    class GercekMusteri :Musteri
+    //GercekMusteri:Musteri => inheritance(miras)
+    class GercekMusteri:Musteri
     {
         public string TcNo { get; set; }
         public string Adi { get; set; }
