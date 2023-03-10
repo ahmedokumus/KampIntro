@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GenericsIntro
 {
@@ -6,10 +7,18 @@ namespace GenericsIntro
     {
         static void Main(string[] args)
         {
-            MyList<string> isimler = new MyList<string>();
-            isimler.Add("Hamza");
+            List<int> list = new List<int>();
 
-            Console.WriteLine("Hello, World!");
+            MyList<string> myList = new MyList<string>();
+            myList.Add("İstanbul");
+            myList.Add("Ankara");
+            myList.Add("İzmir");
+            Console.WriteLine(myList.Count);
+
+            Dictionary<int, string> dictionary = new Dictionary<int, string>();
+
+            MyDictionary<int, string> myDictionary = new MyDictionary<int, string>();
+            myDictionary.Add(1, "Ahmed");
         }
     }
 }

@@ -6,8 +6,8 @@ namespace DegerVeReferansTipler
     {
         static void Main(string[] args)
         {
-            //int,long,float,double,decimal,char,bool,byte,short,struct,enum => değer tip
-            //array,class,interface,string,object,delegate => referans tip
+            //int, long, float, double, decimal, char, bool, byte, short, struct, enum => değer tipler
+            //array, class, interface, string, object, delegate => referans tipler
 
             int sayi1 = 10;
             int sayi2 = 30;
