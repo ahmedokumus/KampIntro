@@ -27,13 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameProject", "GameProject\GameProject.csproj", "{0982C4E1-BA0B-4217-A447-98683B12C089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{9FC0897D-1358-4A1C-86E3-135ABB47F8D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{9FC0897D-1358-4A1C-86E3-135ABB47F8D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IyiProgramciSerisi_RefereceTypes", "IyiProgramciSerisi_RefereceTypes\IyiProgramciSerisi_RefereceTypes.csproj", "{83228382-FBED-481B-9E16-C1CF3CDBD371}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IyiProgramciSerisi_RefereceTypes", "IyiProgramciSerisi_RefereceTypes\IyiProgramciSerisi_RefereceTypes.csproj", "{83228382-FBED-481B-9E16-C1CF3CDBD371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IyiProgramciSerisi_Constructors", "IyiProgramciSerisi_Constructors\IyiProgramciSerisi_Constructors.csproj", "{176270D6-AF9C-48F0-996E-AD0B1391B9C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IyiProgramciSerisi_Constructors", "IyiProgramciSerisi_Constructors\IyiProgramciSerisi_Constructors.csproj", "{176270D6-AF9C-48F0-996E-AD0B1391B9C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IyiProgramciSerisi_Generics", "IyiProgramciSerisi_Generics\IyiProgramciSerisi_Generics.csproj", "{92A4E9BD-9BCC-4C2A-9646-E3C476B8E2EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IyiProgramciSerisi_Generics", "IyiProgramciSerisi_Generics\IyiProgramciSerisi_Generics.csproj", "{92A4E9BD-9BCC-4C2A-9646-E3C476B8E2EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IyiProgramciSerisi_Linq", "IyiProgramciSerisi_Linq\IyiProgramciSerisi_Linq.csproj", "{8535AA0F-7F98-4DC8-9207-A513A5949F8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{92A4E9BD-9BCC-4C2A-9646-E3C476B8E2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92A4E9BD-9BCC-4C2A-9646-E3C476B8E2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92A4E9BD-9BCC-4C2A-9646-E3C476B8E2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8535AA0F-7F98-4DC8-9207-A513A5949F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8535AA0F-7F98-4DC8-9207-A513A5949F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8535AA0F-7F98-4DC8-9207-A513A5949F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8535AA0F-7F98-4DC8-9207-A513A5949F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
